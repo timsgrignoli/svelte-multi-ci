@@ -3,7 +3,7 @@ on:
   push:
     branches: [dev]
     paths-ignore:
-      # - '.github/workflows/**'
+      - '.github/workflows/**'
       - '**.md'
 
 env:
